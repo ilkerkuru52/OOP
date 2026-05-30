@@ -75,5 +75,5 @@ g++ -std=c++20 -Wall -Wextra -O2 -I. EDREngine/main_edr.cpp -o EDREngine/EDREngi
 
 ---
 **👨‍💻 Geliştirici & Mimar:** İlker Kuru  
-**🛡️ Uzmanlık Alanı:** Siber Güvenlik Sistemleri Mimarisi ve Kurumsal C++ Yazılım Mühendisliği  
+**🛡️ Uzmanlık Alanı:** Bilgisayar Mühendisliği
 **🎯 Hedef Kitle:** Bu projenin kodları, güvenlik standartlarına önem veren kurumsal firmaların, bankaların ve siber güvenlik şirketlerinin kendi altyapılarına doğrudan entegre edebilecekleri endüstriyel kalitede (Production-Ready) yazılmıştır.
