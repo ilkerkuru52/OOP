@@ -12,10 +12,6 @@
 
 Bu proje, son kullanıcıya yönelik standart bir masaüstü arayüzü veya basit bir konsol uygulaması değildir. **Bu yazılım; büyük ölçekli kurumsal altyapılara, yüksek trafikli web sunucularına, bankacılık backend sistemlerine veya kurumsal Antivirüs/EDR yazılımlarına doğrudan entegre edilmek üzere tasarlanmış, C++20 standartlarında geliştirilmiş iki adet bağımsız ve endüstriyel kalitede (Production-Ready) "Siber Güvenlik Motoru"dur (Engine/Framework).**
 
-> [!TIP]
-> ### 🚗 "Motor" Analojisi
-> Bir benzetme yapmak gerekirse: Biz burada dış kaportası, boyası ve koltukları olan sıradan bir araba üretmedik. Biz, dünyanın en zorlu koşullarına dayanıklı, saniyede binlerce işlem yapabilen, askeri düzeyde korumalı ve yüksek performanslı bir **Araba Motoru** ürettik. 
-> Geliştirdiğim bu motorları (kütüphaneleri) alıp istediğiniz herhangi bir yazılımın kalbine yerleştirerek, o yazılımı dışarıdan gelecek tahrifat saldırılarına ve karmaşık işletim sistemi tehditlerine karşı zırhlı hale getirebilirsiniz.
 
 Klasörlerde yer alan `.exe` dosyaları bu sistemlerin ana ürünü değildir. Onlar, ürettiğimiz bu motorları en uç sınırlarda (aynı anda binlerce eş zamanlı işlem yaparak) zorlayan ve sistemin çökmeden, bellek sızdırmadan saniyenin yüzde birinde çalıştığını kanıtlayan **Ağır Yük Simülasyonları ve Tehdit Senaryolarıdır**.
 
@@ -197,12 +193,11 @@ g++ -std=c++20 -Wall -Wextra -O3 -I. EDREngine/main_edr.cpp -o EDREngine/EDREngi
 
 Projenin tüm matematiksel altyapısını, literatür taramasını, ilgili akademik çalışmaları, sistem tasarımı XML/mimari şemalarını ve deney çıktılarını içeren **IEEE Konferans Bildirisi standartlarında yazılmış** detaylı raporlara aşağıdaki bağlantılardan erişebilirsiniz:
 
-*   🇹🇷 **Türkçe Akademik Rapor:** [244410028_İlkerKuru_Güvenli Loglama_Türkçe (2).docx](file:///c:/Users/MONSTER/Desktop/IlkerKuru_CyberSec/244410028_İlkerKuru_Güvenli%20Loglama_Türkçe%20(2).docx)
-*   🇬🇧 **İngilizce Akademik Rapor:** [244410028_İlkerKuru_Güvenli Loglama_İngilizce (1).docx](file:///c:/Users/MONSTER/Desktop/IlkerKuru_CyberSec/244410028_İlkerKuru_Güvenli%20Loglama_İngilizce%20(1).docx)
+*   🇹🇷 **Türkçe Akademik Rapor:** [244410028_İlkerKuru_Güvenli Loglama_Türkçe (2).docx]
+*   🇬🇧 **İngilizce Akademik Rapor:** [244410028_İlkerKuru_Güvenli Loglama_İngilizce (1).docx]
 
 ---
 
 **👨‍💻 Geliştirici & Mimar:** İlker Kuru  
-**🛡️ Uzmanlık Alanı:** Siber Güvenlik Sistemleri Mimarisi ve Kurumsal C++ Yazılım Mühendisliği  
 **🏫 Kurum:** Kastamonu Üniversitesi, Bilgisayar Mühendisliği Bölümü  
 **🎯 Hedef Kitle:** Bu projenin kodları; güvenlik standartlarına maksimum önem veren kurumsal firmaların, bankaların ve siber güvenlik şirketlerinin kendi altyapılarına doğrudan entegre edebilecekleri endüstriyel kalitede yazılmıştır.
